@@ -1,0 +1,149 @@
+/* .card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(25% - 20px);
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  transition: top 0.5s;
+}
+
+.card:hover .card-overlay {
+  top: 0;
+} */
+.NavDesign{
+  background-color: #4c3c3c;
+  
+}
+.NavStyle{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+
+
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 800px; /* increase the height of the card */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+  /* margin-bottom: 10px; */
+}
+
+.card:hover {
+  transform: scale(1.3);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  transition: top 0.5s;
+}
+
+.card:hover .card-overlay {
+  top: 0;
+}
+
+.card h3 {
+  font-size: 18px; /* increase the font size of the title */
+  margin-bottom: 3px;
+}
+
+.card p {
+  font-size: 12px; /* increase the font size of the description */
+  margin-bottom: 0;
+}
+
+/* Adjust card width and margin for smaller screens */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Adjust card width and margin for even smaller screens */
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.card:hover {
+  transform: scale(1.3);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  /* padding: 20px; */
+  transition: top 0.5s;
+}
+
+.card:hover .card-overlay {
+  top: 0;
+}
